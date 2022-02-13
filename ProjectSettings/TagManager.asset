@@ -44,12 +44,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 694537695
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enviroment
+    uniqueID: 1012979923
     locked: 0
   - name: Hero
     uniqueID: 1849945361
     locked: 0
-  - name: Enviroment
-    uniqueID: 1012979923
+  - name: UI
+    uniqueID: 3400831671
     locked: 0

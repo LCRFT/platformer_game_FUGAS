@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class MenuScript : MonoBehaviour
 {
     public GameObject panel;
-    //public Button MenuButton;
     private bool MenuVisibility=false,IsPaused=false;
 
     public void ShowMenu()
@@ -14,7 +13,6 @@ public class MenuScript : MonoBehaviour
         if (!MenuVisibility)
         {
             panel.gameObject.SetActive(true);
-            //MenuButton.onClick.AddListener(VisibilityOn);
             MenuVisibility = true;
             TimePause();
             return;
@@ -22,7 +20,6 @@ public class MenuScript : MonoBehaviour
         if (MenuVisibility)
         {
             panel.gameObject.SetActive(false);
-            //MenuButton.onClick.AddListener(VisibilityOff);
             MenuVisibility = false;
             TimeResume();
             return;

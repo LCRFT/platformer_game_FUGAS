@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class StartCurrentLevel : MonoBehaviour
 {
-    // Start is called before the first frame update
  public void StartLevel()
     {
         if (PlayerPrefs.HasKey("LevelIndex"))

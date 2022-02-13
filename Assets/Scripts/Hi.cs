@@ -6,7 +6,6 @@ using TMPro;
 public class Hi : MonoBehaviour
 {
     public TMP_Text Text;
-    // Start is called before the first frame update
     void Start()
     {
         if(PlayerPrefs.HasKey("Player Name"))
